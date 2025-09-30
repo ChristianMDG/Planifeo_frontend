@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  plugins: [react()],
+  plugins: [react(),tailwwindcss()],
   server: {
     port: 3001,
     proxy: mode === 'development' ? {
