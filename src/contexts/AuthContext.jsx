@@ -105,7 +105,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 // URL de ton backend Render
-const API_BASE_URL = import.meta.env.VITE_API_URL || "https://planifeo-backend-1.onrender.com/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://planifeo-backend-1.onrender.com";
 
 // Contexte d'authentification
 const AuthContext = createContext();
