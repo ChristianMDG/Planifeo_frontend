@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3001,
     proxy: {
       '/api': {
-        target: 'https://planifeo-backend.onrender.com',
+        target: 'https://planifeo-backend-1.onrender.com',
         changeOrigin: true
       }
     }
